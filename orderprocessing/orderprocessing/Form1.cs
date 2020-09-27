@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BuisnessRule
+namespace orderprocessing
 {
     public partial class Form1 : Form
     {
@@ -40,7 +40,7 @@ namespace BuisnessRule
         }
 
         private void setCheckedState()
-        {            
+        {
             if (rdbOne.Checked)
                 EnumType = ConfirmationType.PHYSICAL_PAYMENT;
             else if (rdb2.Checked)
